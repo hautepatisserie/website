@@ -41,11 +41,11 @@ export default function Home() {
 
             {/* Desktop / Tablet View: Gold Script Lockup */}
             <div className="hidden md:flex flex-col justify-center">
-              <span className="font-script text-4xl lg:text-[2.75rem] leading-none bg-gradient-to-b from-amber-400 via-amber-600 to-amber-800 bg-clip-text text-transparent pb-1">
+              <span className="font-script text-4xl lg:text-[2.75rem] leading-[1.25] bg-gradient-to-b from-amber-400 via-amber-600 to-amber-800 bg-clip-text text-transparent px-2 -mx-2">
                 Haute Pâtisserie
               </span>
               <span className="text-[10px] tracking-[0.3em] uppercase text-amber-700 font-semibold">
-                Cake Atelier · Karen
+                Atelier · Karen
               </span>
             </div>
           </div>
@@ -295,11 +295,11 @@ export default function Home() {
             />
           </div>
           <p className="font-serif text-sm font-semibold text-stone-800 tracking-wider">
-            HAUTE PÂTISSERIE CAKE ATELIER
+            HAUTE PÂTISSERIE ATELIER
           </p>
         </div>
         <p className="mt-1">Kerarapon Drive, Karen, Nairobi, Kenya</p>
-        <p className="mt-4 text-stone-400">© {new Date().getFullYear()} Haute Pâtisserie. All rights reserved.</p>
+        <p className="mt-4 text-stone-400">© {new Date().getFullYear()} Haute Patisserie Atelier Limited. All rights reserved.</p>
       </footer>
     </main>
   );
