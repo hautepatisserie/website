@@ -141,7 +141,7 @@ export default function Home() {
             <p className="text-stone-500 mt-2">Weddings, milestones, and corporate celebrations</p>
           </div>
           <span className="text-xs uppercase tracking-widest text-stone-400 mt-4 md:mt-0">
-            Hand-Crafted in Kerarapon, Karen
+            Hand-Crafted in Karen, Nairobi
           </span>
         </div>
 
@@ -261,7 +261,7 @@ export default function Home() {
           <div className="p-5 rounded-xl border border-stone-200 bg-white shadow-sm flex flex-col items-center text-center">
             <MapPin className="w-5 h-5 text-amber-700 mb-2" />
             <h4 className="font-semibold text-sm">Studio Location</h4>
-            <p className="text-stone-500 text-xs mt-1">Kerarapon Drive, Karen, Nairobi (Delivery available across Nairobi).</p>
+            <p className="text-stone-500 text-xs mt-1">Karen, Nairobi (Delivery available across Nairobi).</p>
           </div>
           <div className="p-5 rounded-xl border border-stone-200 bg-white shadow-sm flex flex-col items-center text-center">
             <Heart className="w-5 h-5 text-amber-700 mb-2" />
@@ -298,7 +298,7 @@ export default function Home() {
             HAUTE PÂTISSERIE ATELIER
           </p>
         </div>
-        <p className="mt-1">Kerarapon Drive, Karen, Nairobi, Kenya</p>
+        <p className="mt-1">Karen, Nairobi</p>
         <a
           href={whatsappConsultUrl}
           target="_blank"
