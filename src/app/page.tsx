@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { Sparkles, Phone, ChevronRight, Clock, MapPin, Heart } from 'lucide-react';
 
 export default function Home() {
-  const WHATSAPP_NUMBER = "254707674789"; 
+  const WHATSAPP_NUMBER = "254183515353"; 
 
   const whatsappConsultUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
     "Hello Sarah, I would like to inquire about booking a bespoke cake with Haute Pâtisserie."
