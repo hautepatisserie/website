@@ -299,6 +299,15 @@ export default function Home() {
           </p>
         </div>
         <p className="mt-1">Kerarapon Drive, Karen, Nairobi, Kenya</p>
+        <a
+          href={whatsappConsultUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-2 inline-flex items-center gap-1.5 text-stone-700 font-medium hover:text-amber-700 transition"
+        >
+          <Phone className="w-3.5 h-3.5" />
+          <span>+254 183 515 353</span>
+        </a>
         <p className="mt-4 text-stone-400">© {new Date().getFullYear()} Haute Patisserie Atelier Limited. All rights reserved.</p>
       </footer>
     </main>
